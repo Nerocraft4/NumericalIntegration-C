@@ -1,0 +1,5 @@
+##COM COMPILAR##
+main.exe:
+	gcc -o main main.c integracio.o
+integracio.o:
+	gcc -c integracio.c integracio.h
